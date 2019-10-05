@@ -27,7 +27,7 @@ CMD ["python", "app.py"]
 * added the `requirements.txt` and `app.py` files
 * Built the app with `docker build --tag=friendlyhello .`
 * Ran the app with `docker run -p 4000:80 friendlyhello`
-* Published  the  docker image to github
+* Published  the  docker image to Docker Hub available at `docker run -p 4000:80 loags/get-started:part2`
 * Stopped the container using `docker container stop 1fa4ab2cf395`
 
 ### Content served from docker app
